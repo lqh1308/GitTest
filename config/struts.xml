@@ -12,9 +12,11 @@
 			</interceptor-stack>
 		</interceptors>
 		
+		<default-interceptor-ref name="myInterceptor"></default-interceptor-ref>
+		
 		<!-- 配置action -->
 		
 		
-		<default-interceptor-ref name="myInterceptor"></default-interceptor-ref>
+		
 	</package>
 </struts>    
